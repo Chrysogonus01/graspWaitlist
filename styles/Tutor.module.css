@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter&family=Sora:wght@100;200;300;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&family=IBM+Plex+Sans&family=Inter&family=Sora:wght@100;200;300;500;600;700;800&display=swap');
+
+.header{
+    font-family: 'Sora', sans-serif;
+    font-weight:600 ;
+    font-size: 48px;
+    color: black;
+    position: absolute;
+    text-align: justify;
+    margin-left: 22px;
+    margin-top: 3em;
+}
+.body{
+    background-color: black;
+}
+.pmiddle{
+    font-family: 'Sora', sans-serif;
+    font-weight: 300;
+  text-align: justify;
+  position: absolute;
+  color: black;
+  margin-left: 31px;
+  margin-top: 19em;
+  }
+  
+.bold{
+    font-weight: 400;
+    color: rgb(109, 245, 105);
+    text-decoration: underline;
+
+}
+  .section{
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 200;
+      font-size: 48px;
+      text-align: center;
+      position: absolute;
+        margin-top: 10em;
+        margin-left: 5em;
+  }
+  
+  @media screen and (min-width: 320px) {
+ 
+    .header{
+      font-size:32px ;
+      text-align: center;
+    }
+
+    .pmiddle{
+      font-family: 'Sora', sans-serif;
+      left: -10px;
+      font-weight: 300;
+      text-align: center;
+    position: absolute;
+    color: black;
+    margin-left: 21px;
+    margin-top: 15em;
+    }
+    .section{
+      right: 19px;
+      bottom: 70px;
+    }
+  }
+
+  @media screen and (min-width:820px){
+    .header{
+      font-size: 64px;
+    }
+    .pmiddle{
+      font-size: 26px;
+    }
+    .section{
+      top:180px;
+      right: 170px;
+    }
+    }
+
+    /* Bigger screens i.e desktop */
+@media screen and (min-width: 1280px){
+ .header{
+   text-align: center;
+   left: 2em;
+ }
+ .section{
+   left: 0em;
+   top:100px;
+   
+ }
+ .pmiddle{
+   left: 5em;
+ }
+  
+
+}
